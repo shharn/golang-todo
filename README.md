@@ -8,7 +8,7 @@
 
 ## 진행 과정
 * Front-end
-    * jquery는 너무 무겁고 대부분의 method 사용하지 않으므로 jquery와 인터페이스가 거의 같고 헐씬 크기가 작은 zepto.js 사용
+    * jquery는 너무 무겁고 대부분의 method 사용하지 않으므로 jquery와 인터페이스가 거의 같고 훨씬 크기가 작은 zepto.js 사용
     * UI Element를 Component 단위로 나누어 javascript class로 매핑시켜 작은 작업으로 나눔
 * Back-end
     * 언어는 Golang
