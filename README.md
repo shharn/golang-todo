@@ -2,8 +2,9 @@
 > make test
 
 ## How to run
-> make run
-> Open modern browser & enter "http://localhost:9000"
+1. make run
+2. Open modern browser
+3. Enter "http://localhost:9000"
 
 
 ## 진행 과정
