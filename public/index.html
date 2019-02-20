@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Todo</title>
+        <link rel="stylesheet" media="screen" href="./static/main.css">
+    </head>
+    <body>
+        <div class="root-container">
+            <div class="app-container">
+                <h1 class="app__header">Todo list</h1>
+                <button class="todolist__add-button">새로 만들기</button>
+                <table class="todolist__container">
+                    <thead>
+                    <tr class="todolist__header">
+                        <th class="item__add-child"></th>
+                        <th class="item__id" class="">ID</th>
+                        <th class="item__content">Content</th>
+                        <th class="item__parentIds">References</th>
+                        <th class="item__created">Created</th>
+                        <th class="item__modified">Modified</th>
+                        <th class="item__checkbox">Complete</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <!-- <tr class="todolist__item">
+                        <td class="item__id">1</td>
+                        <td class="item__content">Hello world!</td>
+                        <td class="item__created">2019-02-10</td>
+                        <td class="item__modified">2019-02-12</td>
+                        <td class="item__checkbox">
+                            <input type="checkbox" checked />
+                        </td> -->
+                    </tbody>
+                </table>
+                <ul class="todolist__pagination-container">
+                    <li class="todolist__pagination-button">
+                        <a href="#">1</a>
+                    </li>
+                    <!--<li class="todolist_pagination-button">
+                    <a href="#">2</a>
+                    </li>
+                    <li class="todolist_pagination-button">
+                    <a href="#">3</a>
+                    </li>
+                    <li class="todolist_pagination-button">
+                    <a href="#">4</a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        <div class="modal-container">
+            <div class="modal__form-container">
+                <h2 class="modal__header">Enter the todo's content</h2>
+                <input autofocus class="modal__input" type="text"/>
+                <div class="modal__button-container">
+                    <button type="button" class="modal__button modal__ok-button">OK</button>
+                    <button type="button" class="modal__button modal__cancel-button">Cancel</button>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+      <script src="./static/main.js" type="text/javascript"></script>
+    </body>
+</html>
