@@ -1,3 +1,6 @@
+## Prerequisite
+> export GOPATH=$(pwd)
+
 ## How to test
 > make test
 
